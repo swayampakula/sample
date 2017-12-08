@@ -1,10 +1,14 @@
 {
   "name": "react-webapp-boilerplate",
   "version": "1.0.0",
+  "engines": {
+    "node": "8.9.1"
+  },
   "scripts": {
     "build": "node ./node_modules/webpack/bin/webpack.js",
     "serv": "node server.js",
-    "lint": "gulp lint"
+    "lint": "gulp lint",
+    "start": "node server.js",
   },
   "dependencies": {
     "body-parser": "^1.15.2",
